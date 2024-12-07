@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.link{
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: -40px;
+    align-items: center;
+}
+.link h1{
+    color:  rgb(35, 34, 34);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.btn{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgb(140, 140, 221);
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    border-radius: 5px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow:  0 0 20px rgba(0, 0, 0, 0.5);
+    color: red;
+}

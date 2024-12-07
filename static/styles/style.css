@@ -60,3 +60,12 @@ body{
 .icon:hover{
     background-color: green;
 }
+.box a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.box a:hover{
+    text-decoration: underline;
+    color: blue;
+}
